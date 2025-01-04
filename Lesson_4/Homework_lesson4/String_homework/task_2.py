@@ -1,2 +1,2 @@
-Letter = "W"
-print(Letter * 777)
+letter = "W"
+print(letter * 777)
