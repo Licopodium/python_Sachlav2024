@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main  # Запускать на ветке main
+  pull_request:
+    branches:
+      - main  # Запускать при создании PR в ветку main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Окружение для CI (Ubuntu)
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2  # Клонирует репозиторий
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # Установите нужную версию Python
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Установите зависимости из вашего requirements.txt
+
+    - name: Run tests
+      run: |
+        pytest  # Запуск тестов с помощью pytest
