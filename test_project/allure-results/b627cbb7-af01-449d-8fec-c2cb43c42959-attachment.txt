@@ -1,0 +1,4 @@
+
+🔄 Запуск test_copy_reference_button_in_context_menu
+✅ Контекстное меню открыто для заметки 'Context Menu Copy Reference Test'!
+✅ Кнопка копирования референса успешно нажата для заметки 'Context Menu Copy Reference Test'!

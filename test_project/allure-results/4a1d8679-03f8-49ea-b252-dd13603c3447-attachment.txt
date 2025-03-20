@@ -1,0 +1,4 @@
+
+🔄 Запуск test_favorites_button
+✅ Кнопка 'Favorites' успешно нажата!
+✅ Кнопка 'Favorites' успешно нажата!

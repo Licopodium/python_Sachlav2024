@@ -1,0 +1,6 @@
+
+python -m venv .venv
+
+
+.venv\Scripts\Activate
+urllib3==2.3.0

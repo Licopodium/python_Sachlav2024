@@ -1,0 +1,3 @@
+
+🔄 Запуск test_copy_note_button
+✅ Кнопка 'Copy Note' успешно нажата!

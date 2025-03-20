@@ -1,8 +1,5 @@
-import unittest
+num_1 = int(input("Enter a first number: "))
+num_2 = int(input("Enter a second number: "))
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
-
-if __name__ == '__main__':
-    unittest.main()
+for i in range(num_1, num_2+1):
+    print(f"Number {i}; power of 2 = {i**2}; power of 3 = {i**3}")
